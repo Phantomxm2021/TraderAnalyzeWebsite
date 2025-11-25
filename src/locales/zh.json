@@ -1,0 +1,83 @@
+{
+    "app": {
+        "title": "ALPHA TERMINAL",
+        "subtitle": "AI 量化策略师 // 模式: 高盈亏比",
+        "system_online": "系统在线"
+    },
+    "intro": {
+        "role": "高级交易员 AI",
+        "message": "初始化协议完成。我是你的宏观策略师。",
+        "instruction": "请在下方的 <1>数据录入</1> 模块中录入当前的盘面数据。一旦提交，我将结合宏观数据与波动率曲面生成策略报告。"
+    },
+    "ingestion": {
+        "title": "市场数据录入",
+        "phase": "阶段 1 / 2",
+        "analysis_type": "分析类型",
+        "analysis_type_options": "期权分析",
+        "analysis_type_underlying": "标的分析",
+        "ticker": "股票代码",
+        "ticker_placeholder": "例如 SPY, NVDA",
+        "price": "当前价格",
+        "price_placeholder": "$0.00",
+        "iv_rank": "IV 排名",
+        "iv_rank_placeholder": "例如 45%",
+        "hv_rank": "HV 排名",
+        "hv_rank_placeholder": "例如 30%",
+        "support": "支撑位",
+        "support_placeholder": "例如 450, 445",
+        "resistance": "阻力位",
+        "resistance_placeholder": "例如 460, 465",
+        "rsi": "RSI (周期)",
+        "rsi_placeholder": "例如 14日: 65",
+        "macd": "MACD (周期)",
+        "macd_placeholder": "例如 12,26,9: 金叉",
+        "run_analysis": "运行策略分析",
+        "cache": "缓存",
+        "reset_input": "重新录入"
+    },
+    "analysis": {
+        "target": "标的",
+        "data_locked": "数据锁定",
+        "macro_score": "宏观评分",
+        "tech_score": "技术评分",
+        "main_conflict": "主要矛盾",
+        "bull_case": "看多理由",
+        "bear_case": "看空理由",
+        "verdict": "最终裁决",
+        "contract": "合约类型",
+        "expiration": "到期日",
+        "strikes": "行权价",
+        "entry": "入场",
+        "stop": "止损",
+        "risk_managed": "风险风控",
+        "analyze_another": "分析另一个标的",
+        "save_image": "保存分析结果为图片",
+        "reanalyze": "重新分析"
+    },
+    "settings": {
+        "api_key": "API Key",
+        "api_key_placeholder": "输入你的 API Key",
+        "provider": "模型提供商",
+        "title": "设置",
+        "model": "模型",
+        "test_connection": "测试连接",
+        "connection_success": "连接成功！",
+        "connection_failed": "连接失败。请检查您的 API Key。",
+        "connection_error": "连接错误。",
+        "enter_api_key_first": "请先输入 API Key。",
+        "save": "保存设置",
+        "saved": "已保存！",
+        "loading_models": "正在加载模型...",
+        "no_models": "暂无可用模型"
+    },
+    "history": {
+        "title": "分析历史",
+        "clear_all": "清空历史",
+        "confirm_delete": "确定要删除这条记录吗？",
+        "confirm_clear_all": "确定要清空所有历史记录吗？此操作无法撤销。",
+        "search_placeholder": "搜索股票代码...",
+        "no_results": "未找到匹配记录",
+        "empty": "暂无分析历史",
+        "view": "查看"
+    }
+}

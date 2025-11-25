@@ -1,0 +1,83 @@
+{
+    "app": {
+        "title": "ALPHA TERMINAL",
+        "subtitle": "AI QUANTITATIVE STRATEGIST // MODE: HIGH R/R",
+        "system_online": "SYSTEM ONLINE"
+    },
+    "intro": {
+        "role": "Senior Trader AI",
+        "message": "Initialization protocol complete. I am your macro strategist.",
+        "instruction": "Please enter current market data in the <1>DATA INGESTION</1> module below. Once submitted, I will combine macro data with volatility surfaces to generate strategy reports."
+    },
+    "ingestion": {
+        "title": "MARKET DATA ENTRY",
+        "phase": "PHASE 1 OF 2",
+        "analysis_type": "Analysis Type",
+        "analysis_type_options": "Options Analysis",
+        "analysis_type_underlying": "Underlying Asset Analysis",
+        "ticker": "Ticker Symbol",
+        "ticker_placeholder": "e.g. SPY, NVDA",
+        "price": "Current Price",
+        "price_placeholder": "$0.00",
+        "iv_rank": "IV Rank",
+        "iv_rank_placeholder": "e.g. 45%",
+        "hv_rank": "HV Rank",
+        "hv_rank_placeholder": "e.g. 30%",
+        "support": "Support Levels",
+        "support_placeholder": "e.g. 450, 445",
+        "resistance": "Resistance Levels",
+        "resistance_placeholder": "e.g. 460, 465",
+        "rsi": "RSI (Period)",
+        "rsi_placeholder": "e.g. 14D: 65",
+        "macd": "MACD (Period)",
+        "macd_placeholder": "e.g. 12,26,9: Bullish Cross",
+        "run_analysis": "RUN STRATEGY ANALYSIS",
+        "cache": "Cache",
+        "reset_input": "Reset"
+    },
+    "analysis": {
+        "target": "Target",
+        "data_locked": "Data Locked",
+        "macro_score": "Macro Score",
+        "tech_score": "Technical Score",
+        "main_conflict": "Main Conflict",
+        "bull_case": "BULL CASE",
+        "bear_case": "BEAR CASE",
+        "verdict": "THE VERDICT",
+        "contract": "Contract",
+        "expiration": "Expiration",
+        "strikes": "Strikes",
+        "entry": "Entry",
+        "stop": "Stop",
+        "risk_managed": "Risk Managed",
+        "analyze_another": "Analyze Another Ticker",
+        "save_image": "Save Analysis as Image",
+        "reanalyze": "Re-Analyze"
+    },
+    "settings": {
+        "api_key": "API Key",
+        "api_key_placeholder": "Enter your API Key",
+        "provider": "Provider",
+        "title": "Settings",
+        "model": "Model",
+        "test_connection": "Test Connection",
+        "connection_success": "Connection successful!",
+        "connection_failed": "Connection failed. Please check your API Key.",
+        "connection_error": "Connection error.",
+        "enter_api_key_first": "Please enter an API Key first.",
+        "save": "Save Settings",
+        "saved": "Saved!",
+        "loading_models": "Loading models...",
+        "no_models": "No models available"
+    },
+    "history": {
+        "title": "Analysis History",
+        "clear_all": "Clear All",
+        "confirm_delete": "Are you sure you want to delete this record?",
+        "confirm_clear_all": "Are you sure you want to clear all history? This cannot be undone.",
+        "search_placeholder": "Search by ticker...",
+        "no_results": "No matching records found",
+        "empty": "No analysis history yet",
+        "view": "View"
+    }
+}
